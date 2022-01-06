@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, p, a{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 p,a{
   font-weight: 400;
@@ -18,8 +18,12 @@ p,a{
   align-items: center;
   justify-content: space-between;
 }
-.heroSec .left, .heroSec .right{
-  flex-basis: 40%;
+.heroSec .left{
+  flex-basis: 45%;
+  padding-top: 90px;
+}
+.heroSec .right{
+  flex-basis: 35%;
 }
 .heroSec .right{
   text-align: right;
@@ -30,9 +34,12 @@ p,a{
   border-left: 5px solid #ff5959;
   border-radius: 1px;
   padding-left: 20px;
-  line-height: 60px;
+  line-height: 65px;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
+}
+.heroSec .left p{
+  padding: 30px 0px 20px;
 }
 .orangeText{
   color: #ffad5a;
@@ -54,7 +61,6 @@ p,a{
   padding-top: 15px;
 }
 /* Hero section ENDS */
-
 
 .mission{
   padding: 30px 10%;
@@ -96,7 +102,15 @@ h1.primaryHeading{
 /* Mission section ENDS */
 
 .limit{
-  padding: 30px 10%;
+  padding: 100px 10% 30px;
+  position: relative;
+}
+.shape{
+  position: absolute;
+  left: 5%;
+  width: 170px;
+  top: 30%;
+  z-index: -1;
 }
 .limitBox{
   display: flex;
@@ -104,20 +118,35 @@ h1.primaryHeading{
   align-items: center;
   justify-content: space-between;
 }
-.limitItem{
-  flex-basis: 47%;
+.limitItemLeft{
+  flex-basis: 35%;
 }
-.limitItem img{
+.limitItemRight{
+  flex-basis: 58%;
+}
+.limitItemLeft img{
   width: 100%;
 }
 .secondaryHeading{
   font-size: 30px;
   font-weight: 900;
+  padding: 20px 0px;
+}
+.documentationBtn{
+  margin-top: 25px;
 }
 /* Limit section ENDS */
 
 .community{
-  padding: 30px 10%;
+  padding: 100px 10% 30px;
+  position: relative;
+}
+.shape2{
+  position: absolute;
+  right: 5%;
+  width: 170px;
+  bottom: -5%;
+  z-index: -1;
 }
 .communityBox{
   display: flex;
@@ -125,19 +154,46 @@ h1.primaryHeading{
   align-items: center;
   justify-content: space-between;
 }
-.communityItem{
-  flex-basis: 47%;
+.communityItemLeft{
+  flex-basis: 58%;
 }
-.communityItem img{
+.communityItemRight{
+  flex-basis: 35%;
+}
+.communityItemRight img{
   width: 100%;
 }
 /* Community section ENDS */
+
+.blog{
+  padding: 100px 10% 30px;
+}
+.blogBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blogItem{
+  flex-basis: 32%;
+border: 1px solid gray;
+}
+.blogItem img{
+  width: 100%;
+}
+.blogHeading{
+  padding-bottom: 20px;
+}
+.blogText{
+  padding: 25px;
+}
+/* Blog section ENDS */
 
 .footer{
   padding: 30px 10%;
   background: #0b0d17;
   text-align: center;
   color: #ffffff;
+  margin-top: 100px;
 }
 .redFont{
   color: #ff5959;
