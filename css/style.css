@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, p, a{
 }
 p,a{
   font-weight: 400;
-  font-size: 16x;
+  font-size: 16px;
   line-height: 25px;
 }
 .heroSec{
@@ -56,6 +56,10 @@ p,a{
   margin-top: 10px;
   display: inline-block;
 }
+.btn:hover{
+  background: #e63030;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .smallText{
   font-size: 14px;
   padding-top: 15px;
@@ -86,6 +90,9 @@ h1.primaryHeading{
 .missionItem{
   padding: 30px 25px;
   border-radius: 20px;
+}
+.missionItem:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .missionItem:nth-child(1){
   background: #ffeeee;
@@ -175,7 +182,10 @@ h1.primaryHeading{
 }
 .blogItem{
   flex-basis: 32%;
-border: 1px solid gray;
+  border: 1px solid #D3D3D3;
+}
+.blogItem:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .blogItem img{
   width: 100%;
@@ -193,9 +203,12 @@ border: 1px solid gray;
   background: #0b0d17;
   text-align: center;
   color: #ffffff;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .redFont{
   color: #ff5959;
 }
 /* Footer section ENDS */
+
+
+
