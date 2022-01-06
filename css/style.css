@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, p, a{
+  font-family: 'Roboto', sans-serif;
+}
+p,a{
+  font-weight: 400;
+  font-size: 16x;
+  line-height: 25px;
+}
+.heroSec{
+  padding: 30px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroSec .left, .heroSec .right{
+  flex-basis: 40%;
+}
+.heroSec .right{
+  text-align: right;
+}
+.heroSec .left h1{
+  font-size: 50px;
+  color: #333;
+  border-left: 5px solid #ff5959;
+  border-radius: 1px;
+  padding-left: 20px;
+  line-height: 60px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+.orangeText{
+  color: #ffad5a;
+}
+.heroSec .right img{
+  width: 100%;
+}
+.btn{
+  color: white;
+  background: #ff5959;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.smallText{
+  font-size: 14px;
+  padding-top: 15px;
+}
+/* Hero section ENDS */
+
+
+.mission{
+  padding: 30px 10%;
+}
+h1.primaryHeading{
+  color: #13103a;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  padding-bottom: 55px
+}
+.missionBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.missionItem{
+  flex-basis: 32%;
+}
+.missionItem img{
+  width: 100px;
+}
+.missionItem{
+  padding: 30px 25px;
+  border-radius: 20px;
+}
+.missionItem:nth-child(1){
+  background: #ffeeee;
+}
+.missionItem:nth-child(2){
+  background: #edf5f6;
+}
+.missionItem:nth-child(3){
+  background: #fff4d6;
+}
+.missionItem h3{
+  padding: 15px 0px;
+}
+/* Mission section ENDS */
+
+.limit{
+  padding: 30px 10%;
+}
+.limitBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.limitItem{
+  flex-basis: 47%;
+}
+.limitItem img{
+  width: 100%;
+}
+.secondaryHeading{
+  font-size: 30px;
+  font-weight: 900;
+}
+/* Limit section ENDS */
+
+.community{
+  padding: 30px 10%;
+}
+.communityBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.communityItem{
+  flex-basis: 47%;
+}
+.communityItem img{
+  width: 100%;
+}
+/* Community section ENDS */
+
+.footer{
+  padding: 30px 10%;
+  background: #0b0d17;
+  text-align: center;
+  color: #ffffff;
+}
+.redFont{
+  color: #ff5959;
+}
+/* Footer section ENDS */
