@@ -1,0 +1,70 @@
+@media (max-width: 1199px){
+
+  .heroSec .right{
+    flex-basis: 50%;
+  }
+
+}
+/* Large device */
+
+@media (max-width: 991px) {
+  
+  .heroSec .left {
+    flex-basis: 50%;
+  }
+  .heroSec .right{
+    flex-basis: 48%;
+  }
+
+}
+/* Medium device */
+
+@media (max-width: 767px){
+
+  .heroSec .left {
+    flex-basis: 100%;
+    padding-top: 5px;
+  }
+  .heroSec .right{
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .heroSec .right img {
+    width: 65%;
+  }
+  .missionBox {
+    flex-direction: column;
+  }
+  .missionItem:nth-child(2) {
+    margin: 20px 0px;
+  }
+  .limit {
+    padding: 50px 10% 30px;
+  }
+  .limitBox, .communityBox, .blogBox {
+    flex-direction: column;
+  }
+  .limitItemRight {
+    margin-top: 20px;
+  }
+  .community {
+    padding: 15px 10% 30px;
+  }
+  .communityItemRight{
+    margin-top: 50px;
+  }
+  .blogItem:nth-child(2) {
+    margin: 20px 0px;
+  }
+  h1.primaryHeading {
+    padding-bottom: 25px;
+  }
+  .shape, .shape2{
+    display: none;
+  }
+  .blog {
+    padding: 50px 10% 30px;
+  }
+
+}
+/* Small device */
